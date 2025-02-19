@@ -14,7 +14,7 @@ cd ~/Documents/Alx_pro_dev/
 # create env
 python -m venv env
 source env/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows
+env\Scripts\activate  # On Windows
 
 # deactivate env
 deactivate
