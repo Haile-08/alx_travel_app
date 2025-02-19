@@ -11,6 +11,14 @@ ALX Travel App is a Django-based web application designed for travel listings. T
 # Navigate to your workspace
 cd ~/Documents/Alx_pro_dev/
 
+# create env
+python -m venv env
+source env/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows
+
+# deactivate env
+deactivate
+
 # Create the project
 django-admin startproject alx_travel_app
 
