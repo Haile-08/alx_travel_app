@@ -22,6 +22,9 @@ deactivate
 # Create the project
 django-admin startproject alx_travel_app
 
+# Create the project in the current dir
+django-admin startproject alx_travel_app .
+
 # Move into the project directory
 cd alx_travel_app
 
